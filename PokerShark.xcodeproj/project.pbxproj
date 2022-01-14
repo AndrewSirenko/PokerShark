@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD55414027911D2700F62E98 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD55413F27911D2700F62E98 /* Hand.swift */; };
+		CD5541422791207800F62E98 /* Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5541412791207800F62E98 /* Community.swift */; };
+		CD5541442791264200F62E98 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5541432791264200F62E98 /* Deck.swift */; };
+		CD554146279126F600F62E98 /* HoldEm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD554145279126F600F62E98 /* HoldEm.swift */; };
+		CD5541482791276D00F62E98 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CD5541472791276D00F62E98 /* README.md */; };
 		CD77DF25278F5A4300ADD8B1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77DF24278F5A4300ADD8B1 /* Card.swift */; };
 		CDB97ED5277ABEF8006E8C2F /* PokerSharkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB97ED4277ABEF8006E8C2F /* PokerSharkApp.swift */; };
 		CDB97ED7277ABEF8006E8C2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB97ED6277ABEF8006E8C2F /* ContentView.swift */; };
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD55413F27911D2700F62E98 /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		CD5541412791207800F62E98 /* Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community.swift; sourceTree = "<group>"; };
+		CD5541432791264200F62E98 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		CD554145279126F600F62E98 /* HoldEm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldEm.swift; sourceTree = "<group>"; };
+		CD5541472791276D00F62E98 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CD5541492791278500F62E98 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CD77DF24278F5A4300ADD8B1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		CDB97ED1277ABEF8006E8C2F /* PokerShark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokerShark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB97ED4277ABEF8006E8C2F /* PokerSharkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerSharkApp.swift; sourceTree = "<group>"; };
@@ -76,6 +87,7 @@
 		CDB97EC8277ABEF8006E8C2F = {
 			isa = PBXGroup;
 			children = (
+				CD5541492791278500F62E98 /* README.md */,
 				CDB97ED3277ABEF8006E8C2F /* PokerShark */,
 				CDB97EE4277ABEF9006E8C2F /* PokerSharkTests */,
 				CDB97EEE277ABEF9006E8C2F /* PokerSharkUITests */,
@@ -99,6 +111,11 @@
 				CDB97ED4277ABEF8006E8C2F /* PokerSharkApp.swift */,
 				CDB97ED6277ABEF8006E8C2F /* ContentView.swift */,
 				CD77DF24278F5A4300ADD8B1 /* Card.swift */,
+				CD5541432791264200F62E98 /* Deck.swift */,
+				CD554145279126F600F62E98 /* HoldEm.swift */,
+				CD5541472791276D00F62E98 /* README.md */,
+				CD5541412791207800F62E98 /* Community.swift */,
+				CD55413F27911D2700F62E98 /* Hand.swift */,
 				CDB97ED8277ABEF9006E8C2F /* Assets.xcassets */,
 				CDB97EDA277ABEF9006E8C2F /* Preview Content */,
 			);
@@ -234,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5541482791276D00F62E98 /* README.md in Resources */,
 				CDB97EDC277ABEF9006E8C2F /* Preview Assets.xcassets in Resources */,
 				CDB97ED9277ABEF9006E8C2F /* Assets.xcassets in Resources */,
 			);
@@ -260,6 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5541442791264200F62E98 /* Deck.swift in Sources */,
+				CD5541422791207800F62E98 /* Community.swift in Sources */,
+				CD554146279126F600F62E98 /* HoldEm.swift in Sources */,
+				CD55414027911D2700F62E98 /* Hand.swift in Sources */,
 				CDB97ED7277ABEF8006E8C2F /* ContentView.swift in Sources */,
 				CD77DF25278F5A4300ADD8B1 /* Card.swift in Sources */,
 				CDB97ED5277ABEF8006E8C2F /* PokerSharkApp.swift in Sources */,
